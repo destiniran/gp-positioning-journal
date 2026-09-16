@@ -66,13 +66,16 @@ body {
 ============================================ */
 
 #sidebar {
-    /* YOUR CODE HERE */
-    
+    float: left;
+    width: 20%;
+    padding: 20px;
+    background-color: #f0f0f0;
 }
 
 #content-area {
-    /* YOUR CODE HERE */
-    
+    float: left;
+    width: 75%;
+    padding: 20px;
 }
 
 /* ============================================
