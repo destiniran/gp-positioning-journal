@@ -6,8 +6,8 @@
    Complete the TODOs below to style the journal.
    Refer to instructions for detailed guidance.
    
-   Author: [Your Name Here]
-   Date: 02/02/2026
+   Author: [Destini & Terrel]
+   Date: 09/16/2026
 ============================================ */
 
 /* ============================================
@@ -15,17 +15,14 @@
    ============================================ */
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333;
+    font-family: Arial, sans-serif;
     background-color: #f5f5f5;
-    padding: 20px;
 }
 
 /* ============================================
@@ -40,7 +37,9 @@ body {
 
 #main-container {
     /* YOUR CODE HERE */
-    
+    width: 960px;
+    margin: 20px auto;
+    background: white;
 }
 
 /* ============================================
