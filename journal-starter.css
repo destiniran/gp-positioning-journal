@@ -149,3 +149,29 @@ ul {
         margin-bottom: 20px;
     }
 }
+
+
+#sidebar li{
+    transition: opacity 0.4s;
+}
+
+#sidebar li:hover {
+    opacity: 0.6;
+}
+
+.journal-entry {
+    transition: 0.4s;
+}
+
+.journal-entry:hover {
+    transform: translateY(-3px);
+}
+
+.entry-title{
+    color: 0.3s;
+}
+
+.entry-title:hover{
+    color: pink;
+    cursor: pointer;
+}
