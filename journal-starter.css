@@ -49,7 +49,7 @@ body {
 
 #header-box {
     background-color: #4a90e2;
-    color: white;
+    color: rgba(0, 0, 0, 0.833);
     padding: 20px;
     text-align:center;
 }
@@ -115,8 +115,16 @@ body {
 }
 
 .entry-title {
-    color: #333;
-    margin-bottom: 10px
+    color: hsl(216, 72%, 40%);
+    margin-bottom: 10px;
+}
+
+p {
+    color: rgba(110, 44, 0, 0.795)
+}
+
+ul {
+    color: rgb(225, 48, 51) 
 }
 
 /* ============================================
